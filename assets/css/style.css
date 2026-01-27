@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+h2. h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+li a {
+  font-family: 'Roboto', sans-serif;
+}
+
 .nav-link {
     font-weight: 600;
     color: white !important;
@@ -61,11 +73,13 @@
 
 .btn-primary {
   background-color:#c97a2b;
+  border-color: #f5e6dc;
   color: white;
 }
 
 .btn-primary:hover {
   background-color: #b06a24;
+  border-color: #f5e6dc;
 }
 
 
