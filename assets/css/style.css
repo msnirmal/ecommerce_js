@@ -105,6 +105,24 @@ footer p {
   text-decoration: none;
 }
 
+/* Style for about page */
+
+.about {
+  text-align: center;  
+}
+
+.about-title {    
+  font-weight: 700;  
+  color: #f5e6dc;
+}
+
+.about-text {  
+  line-height: 1.7;
+  color: #f5e6dc;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 
 
 
