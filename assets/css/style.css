@@ -59,6 +59,15 @@
   line-height: 1.7;
 }
 
+.btn-primary {
+  background-color:#c97a2b;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #b06a24;
+}
+
 
 
 
