@@ -12,7 +12,7 @@
 }
 
 .nav-bar {
-  background-color: rgb(87, 11, 11);
+  background-color: rgb(58, 7, 7);
 }
 
 .navbar-brand h2, .nav-link {
@@ -24,4 +24,24 @@
   transform: scale(1.2);
 }
 
+.hero-section {
+  background-color: rgb(58, 7, 7); /* or your hero background image */
+}
 
+.hero-title {
+  font-weight: 600;
+}
+
+.hero-text {  
+  max-width: 450px;
+}
+
+.hero-buttons .btn {
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.hero-img {
+  max-width: 90%;
+  background: url('../images/hero.jpg');
+}
