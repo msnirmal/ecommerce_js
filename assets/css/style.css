@@ -50,10 +50,7 @@ li a {
 .hero-section::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -63,8 +60,7 @@ li a {
 }
 
 .hero-title {
-    color: #f5e6dc;
-    font-weight: 700;
+    color: #f5e6dc;    
 }
 
 .hero-text{
@@ -105,14 +101,13 @@ footer p {
   text-decoration: none;
 }
 
-/* Style for about page */
+/*  about page styling */
 
 .about {
   text-align: center;  
 }
 
-.about-title {    
-  font-weight: 700;  
+.about-title {       
   color: #f5e6dc;
 }
 
@@ -121,6 +116,14 @@ footer p {
   color: #f5e6dc;
   max-width: 700px;
   margin: 0 auto;
+}
+
+/* menu page styling */ 
+
+.menu-text h5 {
+  display: inline-block;
+  border-bottom: 2px solid #f5e6dc;
+  padding-bottom: 4px;
 }
 
 
